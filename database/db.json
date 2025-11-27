@@ -4,8 +4,8 @@
       "id": "2",
       "taskName": "Fix Login Authentication Bug",
       "description": "Investigate and resolve the authentication issue where users occasionally get logged out unexpectedly. Check the token expiration flow, session storage handling, and ensure the backend returns proper status codes to prevent sudden logout errors.",
-      "status": "in progress",
-      "dueDate": "2025-01-29"
+      "status": "cancelled",
+      "dueDate": "2025-01-21"
     },
     {
       "id": "5",
@@ -15,25 +15,32 @@
       "dueDate": "2025-01-30"
     },
     {
-      "id": "6",
-      "taskName": "Optimize Database Queries",
-      "description": "Review slow database queries reported in the analytics dashboard. Identify bottlenecks, add proper indexing, and refactor inefficient join operations. Test performance improvements using real-time requests and load-testing tools.",
-      "status": "completed",
-      "dueDate": "2025-02-10"
-    },
-    {
       "id": "7",
       "taskName": "Submit Project Proposal",
       "description": "Draft and submit the new project proposal including objectives, requirements, estimated timeline, and projected budget. Coordinate with the design and development teams to ensure all technical details are consistent and feasible.",
-      "status": "pending",
+      "status": "completed",
       "dueDate": "2025-02-05"
     },
     {
-      "id": "24dd",
-      "taskName": "SAMPLE BITCH",
-      "description": "ASDASD",
-      "status": "cancelled",
-      "dueDate": "2025-11-20"
+      "id": "9e1c",
+      "taskName": "Clean up the code",
+      "description": "Clean the codes properties and functions.",
+      "status": "pending",
+      "dueDate": "2025-12-01"
+    },
+    {
+      "id": "b8a3",
+      "taskName": "asdasd",
+      "description": "asdasdasd",
+      "status": "pending",
+      "dueDate": "2025-12-06"
+    },
+    {
+      "id": "6b40",
+      "taskName": "asdas",
+      "description": "asdasdasdasd",
+      "status": "in progress",
+      "dueDate": "2025-12-13"
     }
   ]
 }

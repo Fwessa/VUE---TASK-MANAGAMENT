@@ -7,12 +7,36 @@ function sortByDueDate(list) {
   });
 }
 
-// SEPARATE TASK PER COLUMN
-export function populateTasks(allTasks) {
-  return {
-    pending: sortByDueDate(allTasks.filter(t => t.status === "pending")),
-    inProgress: sortByDueDate(allTasks.filter(t => t.status === "in progress")),
-    completed: sortByDueDate(allTasks.filter(t => t.status === "completed")),
-    cancelled: sortByDueDate(allTasks.filter(t => t.status === "cancelled")),
+export function populateTasks(tasks) {
+  const result = {
+    pending: [],
+    inProgress: [],
+    completed: [],
+    cancelled: [],
   };
+
+  tasks.forEach((task) => {
+    const rawStatus = task.status || "";
+    const status = rawStatus.toLowerCase();
+
+    if (status === "pending") {
+      result.pending.push(task);
+    } else if (status === "inprogress" || status === "in-progress") {
+      result.inProgress.push(task);
+    } else if (status === "completed") {
+      result.completed.push(task);
+    } else if (status === "cancelled" || status === "canceled") {
+      result.cancelled.push(task);
+    } else {
+      result.pending.push(task); // fallback
+    }
+  });
+
+  // 🔥🔥🔥 SORT THEM BEFORE RETURNING
+  result.pending = sortByDueDate(result.pending);
+  result.inProgress = sortByDueDate(result.inProgress);
+  result.completed = sortByDueDate(result.completed);
+  result.cancelled = sortByDueDate(result.cancelled);
+
+  return result;
 }

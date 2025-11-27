@@ -28,13 +28,14 @@
   padding: 16px 24px;
 
   .panel-body {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    display: flex;                 // 🔁 use flex instead of grid
     gap: 16px;
+    align-items: flex-start;       // 👈 so they don't stretch to same height
+  }
 
-    .panel-inside {
-      width: 100%;
-    }
+  .panel-inside {
+    flex: 1 1 0;                   // each column grows equally, height = content
+    width: 100%;
   }
 }
 
