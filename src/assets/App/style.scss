@@ -1,0 +1,17 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  background: #363636;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-rows: auto 1fr auto; 
+  /* header = auto
+     content = take remaining space (1fr)
+     footer = auto */
+  min-height: 100vh; /* full screen height */
+}
+

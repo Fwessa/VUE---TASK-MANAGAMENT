@@ -1,0 +1,30 @@
+.footer {
+  padding: 20px;
+  background: #ff9215;
+  color: #ffffff;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+
+  p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 20px;
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+}
