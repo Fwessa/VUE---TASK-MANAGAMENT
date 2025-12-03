@@ -1,46 +1,60 @@
 {
   "tasks": [
     {
-      "id": "2",
-      "taskName": "Fix Login Authentication Bug",
-      "description": "Investigate and resolve the authentication issue where users occasionally get logged out unexpectedly. Check the token expiration flow, session storage handling, and ensure the backend returns proper status codes to prevent sudden logout errors.",
+      "taskName": "Design Homepage Mockup",
+      "description": "Create wireframes and mockups for the new homepage design with responsive layout",
       "status": "cancelled",
-      "dueDate": "2025-01-21"
+      "dueDate": "2025-12-05",
+      "id": "ca36"
     },
     {
-      "id": "5",
-      "taskName": "Update Marketing Materials",
-      "description": "Revise the existing marketing materials based on the new branding guidelines. Update the color palette, typography, and layout. Ensure consistency across brochures, social media templates, banners, and promotional graphics.",
-      "status": "completed",
-      "dueDate": "2025-01-30"
-    },
-    {
-      "id": "7",
-      "taskName": "Submit Project Proposal",
-      "description": "Draft and submit the new project proposal including objectives, requirements, estimated timeline, and projected budget. Coordinate with the design and development teams to ensure all technical details are consistent and feasible.",
-      "status": "completed",
-      "dueDate": "2025-02-05"
-    },
-    {
-      "id": "9e1c",
-      "taskName": "Clean up the code",
-      "description": "Clean the codes properties and functions.",
+      "taskName": "Write API Documentation",
+      "description": "Document all API endpoints with examples and error codes",
       "status": "pending",
+      "dueDate": "2025-12-05",
+      "id": "9ae7"
+    },
+    {
+      "id": "d079",
+      "taskName": "Mobile App Testing",
+      "description": "Test the new mobile application on iOS and Android devices",
+      "status": "pending",
+      "dueDate": "2025-12-07"
+    },
+    {
+      "id": "0bcc",
+      "taskName": "Client Meeting Preparation",
+      "description": "Prepare presentation slides and reports for quarterly client review",
+      "status": "in-progress",
+      "dueDate": "2025-12-05"
+    },
+    {
+      "taskName": "Database Migration",
+      "description": "Migrate user data from old database to new PostgreSQL instance",
+      "status": "in-progress",
+      "dueDate": "2025-12-01",
+      "id": "642e"
+    },
+    {
+      "id": "94a6",
+      "taskName": "Performance Optimization",
+      "description": "Optimize page load times and reduce bundle size",
+      "status": "in-progress",
+      "dueDate": "2025-12-05"
+    },
+    {
+      "id": "76b4",
+      "taskName": "Team Standup Meeting",
+      "description": "Daily standup meeting to discuss progress and blockers",
+      "status": "cancelled",
       "dueDate": "2025-12-01"
     },
     {
-      "id": "b8a3",
-      "taskName": "asdasd",
-      "description": "asdasdasd",
-      "status": "pending",
-      "dueDate": "2025-12-06"
-    },
-    {
-      "id": "6b40",
-      "taskName": "asdas",
-      "description": "asdasdasdasd",
-      "status": "in progress",
-      "dueDate": "2025-12-13"
+      "id": "8dc5",
+      "taskName": "Security Audit",
+      "description": "Conduct security audit and implement necessary patches",
+      "status": "in-progress",
+      "dueDate": "2025-12-05"
     }
   ]
 }

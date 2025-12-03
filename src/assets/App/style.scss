@@ -3,12 +3,51 @@ body,
 #app {
   height: 100%;
   margin: 0;
-  background: #363636;
+  background: #fffff6;
 }
 
 .grid-layout {
   display: grid;
   grid-template-rows: auto 1fr auto; 
   min-height: 100vh;
+}
+
+/* main.css or App.vue global styles */
+:root {
+  /* Success (Green) */
+  --p-toast-success-bg: #10b981;
+  --p-toast-success-border: #059669;
+  --p-toast-success-text: #ffffff;
+  --p-toast-success-opacity: 1 !important;
+  
+  /* Info (Blue) */
+  --p-toast-info-bg: #3b82f6;
+  --p-toast-info-border: #2563eb;
+  --p-toast-info-text: #ffffff;
+  --p-toast-info-opacity: 1 !important;
+  
+  /* Warning (Amber/Yellow) */
+  --p-toast-warn-bg: #f59e0b;
+  --p-toast-warn-border: #d97706;
+  --p-toast-warn-text: #ffffff;
+  --p-toast-warn-opacity: 1 !important;
+  
+  /* Error (Red) */
+  --p-toast-error-bg: #ef4444;
+  --p-toast-error-border: #dc2626;
+  --p-toast-error-text: #ffffff;
+  --p-toast-error-opacity: 1 !important;
+  
+  /* Secondary (Gray) */
+  --p-toast-secondary-bg: #6b7280;
+  --p-toast-secondary-border: #4b5563;
+  --p-toast-secondary-text: #ffffff;
+  
+  /* Contrast (Black/White) */
+  --p-toast-contrast-bg: #1f2937;
+  --p-toast-contrast-border: #111827;
+  --p-toast-contrast-text: #ffffff;
+  
+
 }
 
